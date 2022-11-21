@@ -1,0 +1,61 @@
+.movie {
+  height: 150vh;
+  color: #fff;
+}
+
+.movie__details {
+  height: 80vh;
+}
+
+/* .movie__details > img {
+  max-height: 60vh;
+  width: 100%;
+  object-fit: cover;
+  
+} */
+
+.movie__details h1 {
+  font-size: 100px;
+  padding-top: 200px;
+  padding-left: 50px;
+}
+
+.movie__button {
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 0.3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-right: 1rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e50915;
+  margin-left: 50px;
+}
+
+.movie__button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.5s;
+}
+
+.movie h3 {
+  font-weight: 400;
+  margin-top: 180px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.imbd img {
+  height: 40px;
+  margin-left: 100px;
+}
+
+.imbd {
+  margin-bottom: 0px;
+}

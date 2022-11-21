@@ -1,0 +1,92 @@
+.LoginScreen {
+  position: relative;
+  background: url("https://winbuzzer.com/wp-content/uploads/2019/01/netflix-reuse-official.jpg")
+    no-repeat center;
+  background-size: cover;
+}
+
+.LoginScreen__logo {
+  max-height: 100px;
+  position: fixed;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.LoginScreen__button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50915;
+  cursor: pointer;
+  border: none;
+  z-index: 2;
+}
+
+.LoginScreen__overlay {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.LoginScreenBody {
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  left: 20%;
+  padding: 20px;
+}
+
+.LoginScreenBody h1 {
+  font-size: 2.5rem;
+}
+
+.LoginScreenBody h2 {
+  position: absolute;
+  left: 300px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.LoginScreenBody h3 {
+  position: absolute;
+  margin-top: 70px;
+  left: 200px;
+  font-weight: 400;
+}
+
+.LoginScreen__input {
+  position: absolute;
+  top: 180px;
+  left: 200px;
+}
+
+.LoginScreen__input form input {
+  padding: 10px;
+  outline-width: 0;
+  border: none;
+  height: 30px;
+  width: 400px;
+  font-size: 1rem;
+}
+
+.LoginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #e50915;
+  color: white;
+  cursor: pointer;
+}
